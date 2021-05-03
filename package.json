@@ -1,0 +1,21 @@
+{
+  "name": "videostreamingwebsite(disneyplus)",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Arpit Jaiswal",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arpit-ayeeee/disneyplusclone"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
