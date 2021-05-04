@@ -1,5 +1,38 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+/* This will be applicable to the whole reactApp */
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;     /*This says if anything is inside this, it'll never go out to this parent box */
+}
+body{
+    background-color: #040714;
+    color: #f9f9f9;
+    font-family: Avenir-Roman, sans-serif;
+    margin: 0;
+    padding:0;
+}
+a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+/*Media Queries */
+/* For Desktop */
+@media only screen and (min-width: 780px){
+    body{
+        font-size: 16px;
+    }
+}
+/*For tablet*/
+@media only screen and (min-width:480px) and (max-width:768px){
+    body{
+        font-size: 15px;
+    }
+}
+/*For mobile*/
+@media only screen and (max-width:479px){
+    body{
+        font-size: 14px;
+    }
 }
