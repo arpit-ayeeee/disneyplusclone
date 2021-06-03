@@ -21,7 +21,9 @@ const Login = (props)=>{
 };
 
 
-//This is how we'll design the styled components, we'll give them name by ourselves, and the define theor properties below
+//This is how we'll design the styled components, we'll give them name by ourselves, and 
+//then define their properties below.
+
 //Container will have the whole viewport except the header
 const Container = styled.section`
     overflow: hidden; 

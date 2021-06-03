@@ -9,6 +9,8 @@ const Header = ()=>{
             </Logo>
             <NavMenu>
                 Menu
+                Menu 
+                Menu
             </NavMenu>
         </Nav>
     )
