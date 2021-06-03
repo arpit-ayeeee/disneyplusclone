@@ -85,7 +85,7 @@ const Signup = styled.a`
     padding: 16.5px 0;
     border: 1px solid transparent;
     border-radius: 4px;
-    &:hover{
+    &:hover{                                //Says on hover for this particular element
         background-color: #0483ee;
     }
 `;
