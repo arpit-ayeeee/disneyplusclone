@@ -144,8 +144,7 @@ const Login = styled.a`
     text-transform: uppercase;
     letter-spacing: 1.5px;
     border: 1px solid #f9f9f9;
-    border-radius: 4px;
-    transition: all .2s ease 0s;                //When hovered
+    border-radius: 4px; transition: all .2s ease 0s;                //When hovered
 
     &:hover{                                    //On hover
         background-color: #f9f9f9;
